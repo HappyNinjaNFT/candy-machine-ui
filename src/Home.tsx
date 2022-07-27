@@ -31,7 +31,7 @@ import { MintButton } from "./MintButton";
 import { GatewayProvider } from "@civic/solana-gateway-react";
 import { sendTransaction } from "./connection";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
-import  logo  from './HYNJLeGif.gif';
+import  logo  from './0.gif';
 
 const ConnectButton = styled(WalletDialogButton)`
   width: 100%;
