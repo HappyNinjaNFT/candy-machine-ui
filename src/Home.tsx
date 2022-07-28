@@ -718,7 +718,7 @@ const Home = (props: HomeProps) => {
             display="block"
             style={{ marginTop: 7, color: "grey" }}
           >
-            Happy Ninjas NFT Project
+            Louis Rich
           </Typography>
         </Paper>
       </Container>
