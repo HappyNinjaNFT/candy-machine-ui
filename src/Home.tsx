@@ -723,7 +723,7 @@ const Home = (props: HomeProps) => {
             display="block"
             style={{ marginTop: 7, color: "grey" }}
           >
-            Louis Rich
+            Louis Rich Paris
           </Typography>
         </Paper>
       </Container>
