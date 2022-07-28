@@ -39,7 +39,7 @@ const ConnectButton = styled(WalletDialogButton)`
   height: 60px;
   margin-top: 10px;
   margin-bottom: 5px;
-  background: linear-gradient(180deg, #604ae5 0%, #813eee 100%);
+  background: linear-gradient(180deg, #000000 0%, #000000 100%);
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -497,7 +497,7 @@ const Home = (props: HomeProps) => {
           style={{
             padding: 24,
             paddingBottom: 10,
-            backgroundColor: "#151A1F",
+            backgroundColor: "#A0A0A0",
             borderRadius: 6,
             
           }}
@@ -508,7 +508,7 @@ const Home = (props: HomeProps) => {
             <>
               {candyMachine && (
                 <Grid
-                  container
+                  container spacing={2}
                   direction="row"
                   justifyContent="center"
                   wrap="wrap"
@@ -518,6 +518,8 @@ const Home = (props: HomeProps) => {
                     direction="row"
                     justifyContent="center"
                     alignItems="center"
+                    
+                  
                     item xs={12}>
                     <img src={logo} className="logo" alt=""/>
                     
@@ -526,7 +528,8 @@ const Home = (props: HomeProps) => {
                   </Grid>
 
                   <Grid item xs={3}>
-                    <Typography variant="body2" color="textSecondary">
+                    <Typography variant="body2" color="textPrimary">
+                      
                       NFTs Remaining
                     </Typography>
                     <Typography
@@ -534,13 +537,14 @@ const Home = (props: HomeProps) => {
                       color="textPrimary"
                       style={{
                         fontWeight: "bold",
+                        color: "black",
                       }}
                     >
                       {`${itemsRemaining}`}
                     </Typography>
                   </Grid>
                   <Grid item xs={4}>
-                    <Typography variant="body2" color="textSecondary">
+                    <Typography variant="body2" color="textPrimary">
                       {isWhitelistUser && discountPrice
                         ? "Discount Price"
                         : "Price"}
@@ -548,7 +552,9 @@ const Home = (props: HomeProps) => {
                     <Typography
                       variant="h6"
                       color="textPrimary"
-                      style={{ fontWeight: "bold" }}
+                      style={{ fontWeight: "bold",
+                                color: "black",
+                    }}
                     >
                       {isWhitelistUser && discountPrice
                         ? `◎ ${formatNumber.asNumber(discountPrice)}`
@@ -721,9 +727,9 @@ const Home = (props: HomeProps) => {
             variant="caption"
             align="center"
             display="block"
-            style={{ marginTop: 7, color: "grey" }}
+            style={{ marginTop: 7, color: "black" }}
           >
-            Louis Rich Paris
+            Louis Rich 
           </Typography>
         </Paper>
       </Container>
