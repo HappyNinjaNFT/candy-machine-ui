@@ -492,13 +492,14 @@ const Home = (props: HomeProps) => {
 
   return (
     <Container style={{ marginTop: 100 }}>
-      <Container maxWidth="md" style={{ position: "relative" }}>
+      <Container maxWidth='md' style={{ position: "relative" }}>
         <Paper
           style={{
             padding: 24,
             paddingBottom: 10,
             backgroundColor: "#151A1F",
             borderRadius: 6,
+            
           }}
         >
           {!wallet.connected ? (
@@ -512,8 +513,9 @@ const Home = (props: HomeProps) => {
                   justifyContent="center"
                   wrap="wrap"
                 >
-                  <Grid item xs="auto">
-                    <img src={logo} className="logo" alt="" />
+                  <Grid item xs={12}>
+                    <img src={logo} className="logo" alt=""/>
+                    
                     
                   </Grid>
 
