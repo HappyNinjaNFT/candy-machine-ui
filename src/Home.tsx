@@ -514,7 +514,8 @@ const Home = (props: HomeProps) => {
                   wrap="wrap"
                 >
                   <Grid item xs={12}>
-                    <img src={logo} className="logo" alt=""/>
+                    <img src={logo} object-fit= {100} className="logo" alt=""/>
+                    
                     
                     
                   </Grid>
