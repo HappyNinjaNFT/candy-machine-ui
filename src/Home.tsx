@@ -528,7 +528,12 @@ const Home = (props: HomeProps) => {
                   </Grid>
 
                   <Grid item xs={3}>
-                    <Typography variant="body2" color="textPrimary">
+                    <Typography variant="body2" color="textPrimary"
+                                          style={{
+                                            fontWeight: "bold",
+                                            color: "black",
+                                          }}
+                    >
                       
                       NFTs Remaining
                     </Typography>
@@ -544,7 +549,12 @@ const Home = (props: HomeProps) => {
                     </Typography>
                   </Grid>
                   <Grid item xs={4}>
-                    <Typography variant="body2" color="textPrimary">
+                    <Typography variant="body2" color="textPrimary"
+                    
+                    style={{
+                      fontWeight: "bold",
+                      color: "black",
+                    }}>
                       {isWhitelistUser && discountPrice
                         ? "Discount Price"
                         : "Price"}
