@@ -13,7 +13,7 @@ import {
 } from "@identity.com/solana-gateway-ts";
 
 export const CTAButton = styled(Button)`
-  width: 50%;
+  width: 100%;
   height: 60px;
   margin-top: 10px;
   margin-bottom: 5px;
