@@ -13,7 +13,7 @@ import {
 } from "@identity.com/solana-gateway-ts";
 
 export const CTAButton = styled(Button)`
-  width: 100%;
+  width: 50%;
   height: 60px;
   margin-top: 10px;
   margin-bottom: 5px;
@@ -21,6 +21,7 @@ export const CTAButton = styled(Button)`
   color: white;
   font-size: 16px;
   font-weight: bold;
+  
 `; // add your own styles here
 
 export const MintButton = ({
