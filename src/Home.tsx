@@ -513,7 +513,12 @@ const Home = (props: HomeProps) => {
                   justifyContent="center"
                   wrap="wrap"
                 >
-                  <Grid item xs={12}>
+                  <Grid 
+                    container
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="center"
+                    item xs={12}>
                     <img src={logo} className="logo" alt=""/>
                     
                     
