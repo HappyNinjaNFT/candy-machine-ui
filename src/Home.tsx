@@ -31,7 +31,8 @@ import { MintButton } from "./MintButton";
 import { GatewayProvider } from "@civic/solana-gateway-react";
 import { sendTransaction } from "./connection";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
-import  logo  from './0.gif';
+import logo from './0.gif';
+
 
 const ConnectButton = styled(WalletDialogButton)`
   width: 100%;
@@ -511,8 +512,9 @@ const Home = (props: HomeProps) => {
                   justifyContent="center"
                   wrap="wrap"
                 >
-                  <Grid item xs={12}>
+                  <Grid item xs="auto">
                     <img src={logo} className="logo" alt="" />
+                    
                   </Grid>
 
                   <Grid item xs={3}>
