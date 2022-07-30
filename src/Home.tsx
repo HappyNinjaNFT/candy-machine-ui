@@ -31,7 +31,7 @@ import { MintButton } from "./MintButton";
 import { GatewayProvider } from "@civic/solana-gateway-react";
 import { sendTransaction } from "./connection";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
-import logo from './0.gif';
+import logo from './HYNJLeGif.gif';
 
 
 const ConnectButton = styled(WalletDialogButton)`
@@ -497,7 +497,7 @@ const Home = (props: HomeProps) => {
           style={{
             padding: 24,
             paddingBottom: 10,
-            backgroundColor: "#A0A0A0",
+            backgroundColor: "#151A1F",
             borderRadius: 6,
             
           }}
@@ -528,12 +528,7 @@ const Home = (props: HomeProps) => {
                   </Grid>
 
                   <Grid item xs={3}>
-                    <Typography variant="body2" color="textPrimary"
-                                          style={{
-                                            fontWeight: "bold",
-                                            color: "black",
-                                          }}
-                    >
+                    <Typography variant="body2" color="textPrimary">
                       
                       NFTs Remaining
                     </Typography>
