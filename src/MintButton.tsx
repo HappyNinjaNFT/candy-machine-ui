@@ -19,7 +19,7 @@ export const CTAButton = styled(Button)`
   margin-bottom: 5px;
   background: #98ff98;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   
 `; // add your own styles here
