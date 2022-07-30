@@ -492,12 +492,12 @@ const Home = (props: HomeProps) => {
 
   return (
     <Container style={{ marginTop: 100 }}>
-      <Container maxWidth='md' style={{ position: "relative" }}>
+      <Container maxWidth='sm' style={{ position: "relative"}}>
         <Paper
           style={{
             padding: 24,
             paddingBottom: 10,
-            backgroundColor: "#151A1F",
+            backgroundColor: "#d5effc",
             borderRadius: 6,
             
           }}
@@ -519,16 +519,16 @@ const Home = (props: HomeProps) => {
                     justifyContent="center"
                     alignItems="center"
                     
-                  
                     item xs={12}>
-                    <img src={logo} className="logo" alt=""/>
-                    
-                    
-                    
+                    <img src={logo} className="logo" alt=""/>                                  
                   </Grid>
 
                   <Grid item xs={3}>
-                    <Typography variant="body2" color="textPrimary">
+                    <Typography variant="body2" color="textPrimary"
+                    
+                    style={{
+                      fontWeight: "bold",
+                      }}>
                       
                       NFTs Remaining
                     </Typography>
@@ -537,7 +537,7 @@ const Home = (props: HomeProps) => {
                       color="textPrimary"
                       style={{
                         fontWeight: "bold",
-                        color: "black",
+                        color: "white",
                       }}
                     >
                       {`${itemsRemaining}`}
@@ -548,8 +548,8 @@ const Home = (props: HomeProps) => {
                     
                     style={{
                       fontWeight: "bold",
-                      color: "black",
-                    }}>
+                      }}>
+
                       {isWhitelistUser && discountPrice
                         ? "Discount Price"
                         : "Price"}
@@ -558,7 +558,7 @@ const Home = (props: HomeProps) => {
                       variant="h6"
                       color="textPrimary"
                       style={{ fontWeight: "bold",
-                                color: "black",
+                                color: "white",
                     }}
                     >
                       {isWhitelistUser && discountPrice
@@ -732,9 +732,9 @@ const Home = (props: HomeProps) => {
             variant="caption"
             align="center"
             display="block"
-            style={{ marginTop: 7, color: "black" }}
+            style={{ marginTop: 7, color: "white", fontWeight: "bold" }}
           >
-            Louis Rich Paris
+            HAPPY NINJAS NFT
           </Typography>
         </Paper>
       </Container>
